@@ -1,0 +1,126 @@
+/* <link rel="stylesheet" href="https://staticfiles.toverland.com/nc_katara.css"> */
+
+@font-face {
+    font-family: 'Amaro A';
+    src: url('amaro-a-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('Ubuntu-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 10px;
+}
+
+@media screen and (min-width: 3839px) {
+    html {
+        font-size: 2rem;
+    }
+}
+
+body, p {
+    color: #4c4f53;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.4rem;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-family: 'Amaro A', sans-serif;
+    font-size: 9rem;
+    margin-bottom: 0;
+}
+.subtitle {
+    color:#fff;
+}
+.beschrijving {
+    font-size: 2.6rem;
+    font-style: italic;
+}
+.vega {
+    background-image: url('/vegan-icon.png');
+    background-size: cover;
+    width: 20px;
+    height: 21px;
+    display: inline-block;
+}
+.toelichting {
+    line-height: 10px;
+}
+.spacer {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+sup, sub {
+    font-size: 2.1rem;
+}
+.content {
+    padding: 30px 5px;
+    display: block;
+}
+
+.content.links {
+    padding-left: 60px;
+}
+
+.content.rechts {
+    padding-right: 60px;
+}
+
+.content .section-title {
+    margin-bottom: 0px;
+}
+
+.product {
+    width: 100%;
+    display: block;    
+}
+.product .bedrag {
+    float: right;
+}
+
+.footer .section-title {
+    font-size: 11rem;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #feedd9;
+}
+.footer .voetnoot {        
+    font-size: 2.7rem;
+    font-style: italic;
+    padding: 0 0 60px 0;
+    margin-bottom: 0;
+}
+.footer .rechts {
+    text-align: right;
+    padding-right:60px;
+}
+.footer .links {
+    text-align: left;
+    padding-left: 60px;
+}
+.tollymolly {
+    text-align: center;
+}
+.tollymolly .prijs-uitgelicht{
+    color: #fff;
+    font-size: 6rem;
+    font-weight: bold;
+}
+.tollymolly .prijs-uitgelicht .euro {
+    font-size: 3.6rem;
+}
+.tollymolly .prijs-uitgelicht .sup {
+    font-size: 3.6rem;
+}
